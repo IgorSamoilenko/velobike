@@ -86,8 +86,24 @@
    margin-right: 70px;
  }
 
+ .header__logo:hover {
+   filter: invert(100%) brightness(100%) contrast(100%);
+   transition: all 0.6s ease;
+ }
+
  .menu__list {
    display: flex;   
+ }
+
+ .menu__link {
+   padding: 43px 20px;
+   text-transform: uppercase;
+ }
+
+ .menu__link:hover {
+   background-color: #131313;
+   color: #fff;
+   transition: all 0.6s ease;
  }
 
 
